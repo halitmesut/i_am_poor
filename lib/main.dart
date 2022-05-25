@@ -6,12 +6,12 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Center(
+          title: const Center(
             child: Text("I Am Rich"),
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Center(
+        body: const Center(
           child: Image(
             image: AssetImage("images/diamond.png"),
           ),
